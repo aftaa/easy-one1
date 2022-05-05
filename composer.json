@@ -1,0 +1,16 @@
+{
+  "name": "aftaa/easy-one",
+  "description": "разработка в одном пакете",
+  "require": {
+    "php": ">=8.1",
+    "ext-pdo": "*"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Maxim Gabidullin",
+      "email": "after@ya.ru"
+    }
+  ],
+  "minimum-stability": "stable"
+}

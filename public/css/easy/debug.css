@@ -1,0 +1,100 @@
+/*#debug-bottom {*/
+/*    background: #362b36;*/
+/*    bottom: 0;*/
+/*    color: #fff;*/
+/*    height: 42px;*/
+/*    left: -.025%;*/
+/*    line-height: 42px;*/
+/*    overflow: hidden;*/
+/*    padding: 3px;*/
+/*    position: fixed;*/
+/*    width: 100%;*/
+/*    z-index: 100;*/
+/*}*/
+#debug-bottom a {
+    color: orange;
+    display: block;
+    float: left;
+    line-height: 12px;
+    margin: 20px 0;
+}
+
+#debug-bottom {
+    background: #362b36;
+    bottom: 0;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+#debug-bottom a {
+    color: #ffef8f;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#debug-bottom a:hover {
+    text-decoration: underline;
+}
+
+#debug-bottom li {
+    list-style: none;
+    float: left;
+    margin-right: 23px;
+    position: relative;
+}
+
+#debug-bottom-load-classes {
+    background: #362b36;
+    bottom: 44px;
+    color: #ffef8f;
+    height: 500px;
+    overflow: auto;
+    position: fixed;
+    padding: 10px;
+    width: 300px;
+}
+
+#debug-bottom-container {
+    background: #362b36;
+    bottom: 44px;
+    color: #ffef8f;
+    font-size: 10px;
+    height: 500px;
+    overflow: auto;
+    position: fixed;
+    padding: 10px;
+    width: 1000px;
+}
+
+#debug-bottom-queries {
+    background: #eee;
+    bottom: 44px;
+    height: 250px;
+    overflow: auto;
+    padding: 10px;
+    position: fixed;
+    width: 900px;
+}
+
+#debug-bottom-routes {
+    background: #eee;
+    border-bottom: 1px solid red;
+    bottom: 44px;
+    color: #ffef8f;
+    height: 500px;
+    overflow: auto;
+    padding: 10px;
+    position: fixed;
+    width: 700px;
+}
+
+#debug-bottom-load-classes, #debug-bottom-container, #debug-bottom-queries, #debug-bottom-routes {
+    display: none;
+}
+
+#debug-bottom table {
+    width: 100%;
+
+}
