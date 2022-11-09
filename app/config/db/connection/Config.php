@@ -9,4 +9,5 @@ class Config
     public string $username = 'symfony';
     public string $password = 'symfony';
     public string $database = 'symfony';
+    public int $port = 3307;
 }

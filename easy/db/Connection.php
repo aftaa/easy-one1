@@ -24,7 +24,7 @@ class Connection
      */
     private function connect(Config $config)
     {
-        $this->PDO = new \PDO("{$config->provider}:host={$config->hostname};dbname={$config->database}", $config->username, $config->password);
+        $this->PDO = new \PDO("{$config->provider}:host={$config->hostname};dbname={$config->database};port={$config->port}", $config->username, $config->password);
     }
 
     /**
